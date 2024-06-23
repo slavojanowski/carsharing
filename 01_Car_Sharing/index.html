@@ -3,43 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Car Sharing</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-            <nav>
-                <div class="container">
-                    <div class="logo-section">
-                        <div class="logo-img"></div>
-                        <div class="logo-text"><span>CAR</span> SHARING</div>
-                    </div>
-                    <ul class="menu">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Service</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-
-              <div class="banner">
-            <div class="container">
-                <div class="headline">CAR SHARING</div>
-                <div class="subline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                <div class="buttons">
-                  <div class="button-left"><a href="">SHARE A CAR</a></div>
-                  <div class="button-right"><a href="">KEY FEATURES</a></div>
-                </div>
-            </div>
-              </div>
+      <div class="container">
+        <section class="nav-bar">
+          <section class="logo">
+            <img src="images/Icon Logo Normal.svg" />
+            <span>Car</span>Sharing
+          </section>
+          <nav>
+            <ul class="nav-list">
+              <li><a href="">Home</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Service</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+        <div class="banner">
+          <section class="title">CAR SHARING</section>
+          <article class="info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </article>
+          <section class="buttons">
+            <a href="" class="button button-alert space-right">SHARE A CAR</a>
+            <a href="" class="button button-info">KEY FEATURES</a>
+          </section>
+        </div>
+      </div>
+      <div class="arrow">
+        <img src="images/Icon Arrow Down.svg" />
+      </div>
     </header>
+
+    <section class="blog">
+      <div class="container">
+        <p class="lines center blog-title">BLOG</p>
+        <article>
+            <div class="single-article">
+                <img src="images/photo1.png" alt="image">
+                <div class="post-title">LOREM IPSUM SIT DOLOR</div>
+                <div class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                <div class="button btn-small">READ MORE</div>
+            </div>
+            <div class="single-article">
+                <img src="images/photo2.png" alt="image">
+                <div class="post-title">LOREM IPSUM SIT DOLOR</div>
+                <div class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                <div class="button btn-small">READ MORE</div>
+            </div>
+            <div class="single-article">
+                <img src="images/photo3.png" alt="image">
+                <div class="post-title">LOREM IPSUM SIT DOLOR</div>
+                <div class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                <div class="button btn-small">READ MORE</div>
+            </div>
+        </article>
+      </div>
+    </section>
   </body>
 </html>
